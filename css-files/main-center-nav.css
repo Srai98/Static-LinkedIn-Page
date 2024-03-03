@@ -1,0 +1,107 @@
+
+/* url for icon changes and fonts changes link imported */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* main container changes font and imgs */
+.main{
+    display: grid;
+    grid-template-rows: 25% 52% 28%;
+    gap: 1.4rem;
+    width: 85%;
+    margin: 1.8rem auto;
+}
+
+/* defined media section */
+main .media{
+    background: #fff;
+    height: 20vh;
+    /* margin-top: 1rem; */
+    border-radius: 0.8rem;
+}
+
+/* img icon defined its size */
+main .media .search img{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* search section defining right after img  */
+main .media .search{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+/* input search format defining   */
+main .media .search input{
+    border-radius: 5rem;
+    border: 1px solid gray;
+    width: 100%;
+    padding: 0 1.2rem;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+/* input search of highlight times */
+main .media .search input:hover{
+    background: rgb(233, 233, 233);
+}
+
+/* posts section defined */
+main .media .posts{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+
+/* defining inside post section format of icon and text */
+main .media .posts .post-photo , main .media .posts .post-video , 
+main .media .posts .post-job , main .media .posts .post-write{
+    display: flex;
+    gap: 1rem;
+    padding: 0.6rem 0.5rem;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+/* defined text h tag  */
+main .media .posts .post-photo h5 , main .media .posts .post-video h5 ,
+main .media .posts .post-job h5 , main .media .posts .post-write h5{
+    font-weight: 400;
+}
+
+/* defined icon color */
+main .media .posts .post-photo i{
+    color: rgb(10, 102, 194);
+}
+/* defined icon color */
+main .media .posts .post-video i{
+    color: rgb(25,194,10);
+}
+/* defined icon color */
+main .media .posts .post-job i{
+    color: rgb(49,135,221);
+}
+/* defined icon color */
+main .media .posts .post-write i{
+    color: rgb(194,10,185);
+}
+/* defined icon color */
+main .media .posts .post:hover{
+    background: rgb(235, 235, 235);
+    border-radius: 0.2rem;
+}
+
+/* second section for img and likes */
+.media-containent{
+    background: #fff;
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 68vh;
+    position: flex;
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
