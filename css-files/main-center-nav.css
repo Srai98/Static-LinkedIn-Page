@@ -144,6 +144,7 @@ main .media .posts .post:hover{
 .media-main-icon .comment-section-likes{
     display: flex;
     gap: 1rem;
+    padding-left: 1.5rem;
 }
 .media-main-icon .comment-section-likes .like i{
     color:blue;
@@ -224,6 +225,7 @@ main .media .posts .post:hover{
 .media-main-icon-1 .comment-section-likes-1{
     display: flex;
     gap: 1rem;
+    padding-left: 1.5rem;
 
 }
 
