@@ -5,8 +5,8 @@
 
 /* main container changes font and imgs */
 .main{
-    display: grid;
-    grid-template-rows: 25% 52% 28%;
+    display: relative;
+    /* grid-template-rows: 25% 52% 28%; */
     gap: 1.4rem;
     width: 85%;
     margin: 1.8rem auto;
@@ -14,10 +14,12 @@
 
 /* defined media section */
 main .media{
-    background: #fff;
-    height: 20vh;
-    /* margin-top: 1rem; */
+    background: white;
+    width: 100%;
+    height: 25vh;
+    position: relative;
     border-radius: 0.8rem;
+    overflow: hidden;
 }
 
 /* img icon defined its size */
@@ -97,11 +99,162 @@ main .media .posts .post:hover{
 
 /* second section for img and likes */
 .media-containent{
-    background: #fff;
+    background:white;
     margin-top: 0.5rem;
     width: 100%;
-    height: 68vh;
+    height: 70vh;
     position: flex;
     border-radius: 0.8rem;
     overflow: hidden;
+}
+
+/* icon size adjustment  */
+.media-main-icon .icon-img{
+    width: 40px;
+    height: 50px;
+    padding:0.5rem 0 0 0.5rem;
+}
+
+/* img center changes as per needed */
+.media-main-icon img{
+    height: 20rem;
+    width: 95%;
+    text-align: center;
+    padding-left: 1rem;
+}
+
+/* icon header text adjustment */
+.media-main-icon .icon-h3{
+    display: flex;
+    margin-top: -65px;
+    margin-left: 3.8rem;
+}
+/* drop down section */
+.media-main-icon .dot-section{
+    display: flex;
+    margin-top: -10px;
+    margin-left: 38rem;
+}
+/* follower view section */
+.media-main-icon .follower{
+    display: grid;
+    margin-top: -5px;
+    margin-left: 4rem;
+} 
+.media-main-icon .comment-section-likes{
+    display: flex;
+    gap: 1rem;
+}
+.media-main-icon .comment-section-likes .like i{
+    color:blue;
+}
+.media-main-icon .comment-section-likes .tumb i{
+    color:grey;
+}
+.media-main-icon .comment-section-likes .heart-hand i{
+    color:green;
+}
+.media-main-icon .comment-section-likes .comment-like{
+    color: grey;
+    display: flex;
+    gap: 1rem;
+    padding-top: 0.3rem;
+}
+/* post section */
+.media-containent .post-send{
+    display: flex;
+    gap: 6.5rem;
+    padding-top: 0.6rem;
+    padding-left: 3rem;
+}
+.media-containent .post-send .s-like h5 , .s-commnent h5 , .s-share h5 , .s-send h5{
+    display: inline;
+    
+}
+
+/* ----------------------------------------------------------- */
+/* 2nd section */
+.media-containent-1{
+    background:white;
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 70vh;
+    position: flex;
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+
+/* img size corection */
+.media-main-icon-1 .icon-img{
+    width: 40px;
+    height: 45px;
+    padding:0.5rem 0 0 0.5rem;
+}
+
+/* icon adjsutment */
+.media-main-icon-1 img{
+    height: 20rem;
+    width: 95%;
+    text-align: center;
+    padding-left: 1rem;
+}
+
+/* icon header text adjustment */
+.media-main-icon-1 .icon-h3{
+    display: flex;
+    margin-top: -65px;
+    margin-left: 3.8rem;
+}
+
+/* drop down section */
+.media-main-icon-1 .dot-section-1{
+    display: flex;
+    margin-top: -10px;
+    margin-left: 38rem;
+}
+
+/* follower view section */
+.media-main-icon-1 .follower-1{
+    display: grid;
+    margin-top: -5px;
+    margin-left: 4rem;
+}
+ 
+/* like section details */
+.media-main-icon-1 .comment-section-likes-1{
+    display: flex;
+    gap: 1rem;
+
+}
+
+/* giving link icon color  */
+.media-main-icon-1 .comment-section-likes-1 .like i{
+    color:blue;
+}
+.media-main-icon-1 .comment-section-likes-1 .tumb i{
+    color:grey;
+}
+.media-main-icon-1 .comment-section-likes-1 .heart-hand i{
+    color:green;
+}
+
+/* comment section how many people comments  */
+.media-main-icon-1 .comment-section-likes-1 .comment-like-1{
+    color: grey;
+    display: flex;
+    gap: 1rem;
+    padding-top: 0.3rem;
+}
+
+/* post section send and comment section gap with icon */
+.media-containent-1 .post-send-1{
+    display: flex;
+    gap: 6.5rem;
+    padding-top: 0.6rem;
+    padding-left: 3rem;
+}
+
+.media-containent-1 .post-send-1 .s-like-1 h5 , .s-commnent-1 h5 , .s-share-1 h5 , .s-send-1 h5{
+    display: inline;
+    
 }
