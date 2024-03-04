@@ -141,6 +141,8 @@ main .media .posts .post:hover{
     margin-top: -5px;
     margin-left: 4rem;
 } 
+
+/* comment section of likes icon */
 .media-main-icon .comment-section-likes{
     display: flex;
     gap: 1rem;
@@ -155,6 +157,8 @@ main .media .posts .post:hover{
 .media-main-icon .comment-section-likes .heart-hand i{
     color:green;
 }
+
+/* comment section how many people comments  */
 .media-main-icon .comment-section-likes .comment-like{
     color: grey;
     display: flex;
@@ -168,9 +172,10 @@ main .media .posts .post:hover{
     padding-top: 0.6rem;
     padding-left: 3rem;
 }
+
+/* h5 tag display changes */
 .media-containent .post-send .s-like h5 , .s-commnent h5 , .s-share h5 , .s-send h5{
     display: inline;
-    
 }
 
 /* ----------------------------------------------------------- */
@@ -256,7 +261,7 @@ main .media .posts .post:hover{
     padding-left: 3rem;
 }
 
+/* h5 tag display changes */
 .media-containent-1 .post-send-1 .s-like-1 h5 , .s-commnent-1 h5 , .s-share-1 h5 , .s-send-1 h5{
-    display: inline;
-    
+    display: inline;   
 }
